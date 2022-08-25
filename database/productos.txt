@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Regla",
+    "price": 120.67,
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png",
+    "id": 1
+  },
+  {
+    "title": "Mochila",
+    "price": "1200",
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/bag-pack-container-school-512.png",
+    "id": 3
+  },
+  {
+    "title": "microscopio",
+    "price": "7000",
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/microscope-lab-science-school-256.png",
+    "id": 6
+  },
+  {
+    "title": "pizarra grande",
+    "price": "14000",
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/board-math-class-school-128.png",
+    "id": 8
+  },
+  {
+    "title": "Lapiz negro",
+    "price": "120",
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/pencil-pen-stationery-school-256.png",
+    "id": 9
+  },
+  {
+    "title": "pizarra de salón",
+    "price": "2100",
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/board-math-class-school-256.png",
+    "id": 6
+  },
+  {
+    "title": "cuaderno rojo",
+    "price": "150",
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/book-note-paper-school-256.png",
+    "id": 7
+  }
+]

@@ -1,0 +1,47 @@
+<div class="text-center container-fluid d-flex">
+ <section class="text-center container-sm d-flex flex-column align-items-center bg-secondary">
+   <h2 class="mt-5 fw-bolder text-light">Agregar nuevos productos</h2>
+  <form style="width: 500px;" action="/productos" method="post">
+    <div class="mb-3">
+      <label for="title" class="form-label text-light fw-bolder" >Nombre:</label>
+      <input
+        type="text"
+        class="form-control bg-dark text-light fw-bolder"
+        id="title"
+        aria-describedby="emailHelp",
+        name="title"
+      />
+    <div class="mb-3">
+      <label for="price" class="form-label text-light fw-bolder" >Precio:</label>
+      <input type="number" class="form-control bg-dark text-light fw-bolder" id="price" name="price"/>
+    </div>
+        <div class="mb-3">
+      <label for="thumbnail" class="form-label text-light fw-bolder">URL Imagen:</label>
+      <input type="text" class="form-control bg-dark text-light fw-bolder" id="thumbnail" name="thumbnail"/>
+    </div>
+
+    <button type="submit" class="btn btn-dark" id="BotonAgregar">Agregar</button>
+  </form>
+
+
+<article class="container-fluid d-flex flex-column align-items-center my-5">
+  <h3 class="text-center fw-bold text-light">Últimos productos</h3>
+  <div id="productsList"></div>
+
+</article>
+</section>
+
+  <section class="text-center container-lg d-flex flex-column align-items-center">
+    <h3 class="my-5 fw-bolder">Chat en vivo</h3>
+    <form >
+      <label for="email" class="form-label">Ingrese su email:</label>
+      <input type="email" class="form-control" id="user">
+<div class="form-floating">
+  <textarea class="form-control" placeholder="Deja aquí tu comentario" id="comment" style="height: 100px; resize:none"></textarea>
+  <label for="comment">Comentario:</label>
+</div>
+<button class="btn btn-dark mt-3" id="buttonChat"> Enviar</button>
+    </form>
+  <article class="d-flex flex-column mt-5" id="msg"></article>
+  </section>
+   </div>
